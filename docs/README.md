@@ -1,38 +1,38 @@
 # Математические формулы
 
-## [Круг (circle.py)](https://github.com/ogrock3t/geometric_lib/blob/new_features_464914/circle.py)
+## [Круг (circle.py)](../circle.py)
 ### Нахождение площади круга с заданным радиусом
 `def area(r)`
 ### Нахождение длины окружности с заданным радиусом
 `def perimeter(r)`
 
-## [Прямоугольник (rectangle.py)](https://github.com/ogrock3t/geometric_lib/blob/new_features_464914/rectangle.py)
+## [Прямоугольник (rectangle.py)](../rectangle.py)
 ### Нахождение площади прямоугольника с заданными сторонами
 def area(a, b)
 ### Нахождение периметра прямоугольника с заданными сторонами
 `def perimeter(a, b)`
 
-## [Квадрат (square.py)](https://github.com/ogrock3t/geometric_lib/blob/new_features_464914/square.py)
+## [Квадрат (square.py)](../square.py)
 ### Нахождение площади квадрата с заданной стороной
 `def area(a)`
 ### Нахождение периметра квадрата с заданной стороной
 `def perimeter(a)`
 
-## [Треугольник (triangle.py)](https://github.com/ogrock3t/geometric_lib/blob/new_features_464914/triangle.py)
+## [Треугольник (triangle.py)](../triangle.py)
 ### Нахождение площади треугольника с заданным основанием и высотой, проведенной к нему
 `def area(a, h)`
 ### Нахождение периметра треугольника с заданным основанием и высотой, проведенной к нему
 `def perimeter(a, b, c)`
 
 
-# [Тесты (/test)](https://github.com/ogrock3t/geometric_lib/tree/new_features_464914/tests)
+# [Тесты (/test)](../tests)
 ### Чтобы проверить корректность работы функций нужно запустить тесты
 
-### В папке [`tests`](https://github.com/ogrock3t/geometric_lib/tree/new_features_464914/tests) находится 4 файла:
-#### 1. [`test_circle.py`](https://github.com/ogrock3t/geometric_lib/blob/new_features_464914/tests/test_circle.py) - файл для проверки корректности функций из [`circle.py`](https://github.com/ogrock3t/geometric_lib/blob/new_features_464914/circle.py)
-#### 2. [`test_rectangle.py`](https://github.com/ogrock3t/geometric_lib/blob/new_features_464914/tests/test_rectangle.py) - файл для проверки корректности функций из [`rectangle.py`](https://github.com/ogrock3t/geometric_lib/blob/new_features_464914/rectangle.py)
-#### 3. [`test_square.py`](https://github.com/ogrock3t/geometric_lib/blob/new_features_464914/tests/test_square.py) - файл для проверки корректности функций из [`square.py`](https://github.com/ogrock3t/geometric_lib/blob/new_features_464914/square.py)
-#### 4. [`test_triangle.py`](https://github.com/ogrock3t/geometric_lib/blob/new_features_464914/tests/test_triangle.py) - файл для проверки корректности функций из [`triangle.py`](https://github.com/ogrock3t/geometric_lib/blob/new_features_464914/triangle.py)
+### В папке [`tests`](../tests) находится 4 файла:
+#### 1. [`test_circle.py`](../tests/test_circle.py) - файл для проверки корректности функций из [`circle.py`](../circle.py)
+#### 2. [`test_rectangle.py`](../tests/test_rectangle.py) - файл для проверки корректности функций из [`rectangle.py`](../rectangle.py)
+#### 3. [`test_square.py`](../tests/test_square.py) - файл для проверки корректности функций из [`square.py`](../square.py)
+#### 4. [`test_triangle.py`](../tests/test_triangle.py) - файл для проверки корректности функций из [`triangle.py`](../triangle.py)
 
 
 ### Для запуска тестов введите в терминал:
@@ -48,3 +48,4 @@ def area(a, b)
 7. [`58c58cc`](https://github.com/ogrock3t/geometric_lib/commit/58c58cc059ef3916a9d48738f1febece117eb605) - Добавление файлов [`test_circle.py`](https://github.com/ogrock3t/geometric_lib/blob/new_features_464914/tests/test_circle.py), [`test_rectangle.py`](https://github.com/ogrock3t/geometric_lib/blob/new_features_464914/tests/test_rectangle.py), [`test_square.py`](https://github.com/ogrock3t/geometric_lib/blob/new_features_464914/tests/test_square.py), [`test_triangle.py`](https://github.com/ogrock3t/geometric_lib/blob/new_features_464914/tests/test_triangle.py)
 8. [`e859d06`](https://github.com/ogrock3t/geometric_lib/commit/e859d06b52a68b276122ddf7b30026c1e65f30fe) - Исправлены все ошибки
 9. [`eda87d5`](https://github.com/ogrock3t/geometric_lib/commit/eda87d55284e8fc21315a0a4ea68af030a592daa) - Добавлены CI/CD
+10. [`7339730`](https://github.com/ogrock3t/geometric_lib/commit/7339730d546ec76ec112e0c0e665937887d2f021) - Проверка работы CI/CD
